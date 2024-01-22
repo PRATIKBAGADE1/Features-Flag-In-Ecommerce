@@ -1,5 +1,5 @@
-﻿###Features Flag Implementation in Ecommerce
-In this project, I build a **Match Game** by applying the concepts we have learned till now.
+﻿### Features Flag Implementation in Ecommerce
+
 ### Problem Statement
 
 The Problem Statement of this project includes the comprehensive integration of feature flags into the clothing eCommerce website, empowering it with dynamic control over specific features. This encompasses the enhancement of agility, optimization of deployment processes, effective testing mechanisms, mitigation of user disruption risks, and scalability. The project aims to elevate the platform's responsiveness to market trends, ensuring a seamless and personalized shopping experience while establishing a foundation for future growth and adaptability in the ever-evolving online fashion industry.
