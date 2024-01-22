@@ -115,7 +115,10 @@ The app must have the following functionalities
 
 
 > ### _Things to Keep in Mind_
-> - Developed by :- **1)Pratik Bagade** <br> **2)Yash Deshmukh** <br>  **3)Dipak Chahakar**
+> - Developed by :-
+> -  - **Pratik Bagade**
+> -  - **Yash Deshmukh**
+> -  - **Dipak Chahakar**
 > - Last Year Computer Engineering Project
 > - From :- Government College Of Engineering Jalgaon.
 > - 
