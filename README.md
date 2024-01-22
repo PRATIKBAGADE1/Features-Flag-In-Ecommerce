@@ -116,9 +116,9 @@ The app must have the following functionalities
 
 > ### _Things to Keep in Mind_
 > - Developed by :-
-    - **Pratik Bagade**
-    - **Yash Deshmukh**
-    - **Dipak Chahakar**
+  - - **Pratik Bagade**
+  - - **Yash Deshmukh**
+  - - **Dipak Chahakar**
 > - Last Year Computer Engineering Project
 > - From :- Government College Of Engineering Jalgaon.
 > - 
