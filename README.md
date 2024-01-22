@@ -7,7 +7,7 @@ The Problem Statement of this project includes the comprehensive integration of 
 ### Industrial Real-time Problems
 - **Risky Feature Releases:** New features can introduce bugs or unintended consequences, impacting user experience and potentially leading to revenue loss.
 - **Limited Experimentation:** Evaluating the effectiveness of new features or design changes can be difficult without the ability to conduct controlled experiments and gather data.
--**Risk of User Disruption:** Making changes to a live eCommerce website can introduce the risk of user disruption or dissatisfaction. Without a feature flagging system, implementing new features or updates becomes a high-stakes endeavor..
+- **Risk of User Disruption:** Making changes to a live eCommerce website can introduce the risk of user disruption or dissatisfaction. Without a feature flagging system, implementing new features or updates becomes a high-stakes endeavor..
 - **Inefficient Development Processes:** Managing multiple feature branches and release schedules can introduce complexity and overhead, reducing developer productivity.
 
 
