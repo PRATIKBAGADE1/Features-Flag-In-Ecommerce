@@ -1,8 +1,8 @@
 ﻿###Features Flag Implementation in Ecommerce
 In this project, I build a **Match Game** by applying the concepts we have learned till now.
-### Project Structure
+### Problem Statement
 
-The project is a timed matching game app that challenges users to match images with the correct category. It begins with a score of 0 and a 60-second countdown timer. Users click on category tabs to reveal thumbnails and click on thumbnails to match them with the displayed image. When a match is made, the score increases, and a new image is displayed. If a mismatch occurs, the game ends, and a Scorecard view is presented. Users can choose to play again, resetting the score, timer, and categories. The game also ends when the timer reaches 0 seconds. Overall, it's an engaging and interactive game focused on image matching and category selection.
+The Problem Statement of this project includes the comprehensive integration of feature flags into the clothing eCommerce website, empowering it with dynamic control over specific features. This encompasses the enhancement of agility, optimization of deployment processes, effective testing mechanisms, mitigation of user disruption risks, and scalability. The project aims to elevate the platform's responsiveness to market trends, ensuring a seamless and personalized shopping experience while establishing a foundation for future growth and adaptability in the ever-evolving online fashion industry.
 
 
 
