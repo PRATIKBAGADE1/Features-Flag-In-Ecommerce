@@ -5,14 +5,10 @@
 The Problem Statement of this project includes the comprehensive integration of feature flags into the clothing eCommerce website, empowering it with dynamic control over specific features. This encompasses the enhancement of agility, optimization of deployment processes, effective testing mechanisms, mitigation of user disruption risks, and scalability. The project aims to elevate the platform's responsiveness to market trends, ensuring a seamless and personalized shopping experience while establishing a foundation for future growth and adaptability in the ever-evolving online fashion industry.
 
 ### Industrial Real-time Problems
-- Risky Feature Releases:
-New features can introduce bugs or unintended consequences, impacting user experience and potentially leading to revenue loss.
-- Limited Experimentation:
-Evaluating the effectiveness of new features or design changes can be difficult without the ability to conduct controlled experiments and gather data.
-- Risk of User Disruption:
-Making changes to a live eCommerce website can introduce the risk of user disruption or dissatisfaction. Without a feature flagging system, implementing new features or updates becomes a high-stakes endeavor..
-- Inefficient Development Processes:
-Managing multiple feature branches and release schedules can introduce complexity and overhead, reducing developer productivity.
+- **Risky Feature Releases:** New features can introduce bugs or unintended consequences, impacting user experience and potentially leading to revenue loss.
+- **Limited Experimentation:** Evaluating the effectiveness of new features or design changes can be difficult without the ability to conduct controlled experiments and gather data.
+-**Risk of User Disruption:** Making changes to a live eCommerce website can introduce the risk of user disruption or dissatisfaction. Without a feature flagging system, implementing new features or updates becomes a high-stakes endeavor..
+- **Inefficient Development Processes:** Managing multiple feature branches and release schedules can introduce complexity and overhead, reducing developer productivity.
 
 
 <br/>
