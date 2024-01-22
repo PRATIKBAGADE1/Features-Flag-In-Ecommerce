@@ -115,9 +115,10 @@ The app must have the following functionalities
 
 
 > ### _Things to Keep in Mind_
-> - Developed by :- **Pratik Bagade** (L.Y.Computer Engineer)
+> - Developed by :- **1)Pratik Bagade** <br> **2)Yash Deshmukh** <br>  **3)Dipak Chahakar**
+> - Last Year Computer Engineering Project
 > - From :- Government College Of Engineering Jalgaon.
 > - 
-> - So Enjoy the games guys by downloading it.
+> - So lets buy our products guys and make a payment for my efforts.
 > - Good by...!!!!
 
