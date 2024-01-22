@@ -39,9 +39,9 @@ The Problem Statement of this project includes the comprehensive integration of 
 <details>
 <summary>Click to view</summary>
 
-- ![Front Page](https://assets.ccbp.in/frontend/content/react-js/match-game-sm-outputs.png)
-- ![Match Game](https://assets.ccbp.in/frontend/content/react-js/match-game-lg-output.png)
-- ![Scorecard](https://assets.ccbp.in/frontend/content/react-js/match-game-score-card-lg-output.png)
+- ![Front Page]()
+- ![Match Game]()
+- ![Scorecard]()
 
 </details>
 
@@ -72,12 +72,12 @@ The app must have the following functionalities
   - Score is incremented by one
   - The new image to be matched should be generated randomly among the value of the key `imageUrl` from **imagesList** provided
 - When a thumbnail is clicked, if it is not matched with the image to be matched,
-  - The game should end, and the [Scorecard](https://assets.ccbp.in/frontend/content/react-js/match-game-score-card-lg-output.png) view should be displayed
+  - The game should end, and the [Scorecard]() view should be displayed
   - When **PLAY AGAIN** button is clicked, then we should be able to play the game again
     - The score and time values should be reset to `0` and `60` sec respectively
     - The image to be matched should reset to the value of the key `imageUrl` from the first object in **imagesList** provided
     - The active tab should reset to **Fruits**, and the thumbnails with **FRUIT** as their category should be displayed
-- When the timer reached `0` sec, then the game should end, and the [Scorecard](https://assets.ccbp.in/frontend/content/react-js/match-game-score-card-lg-output.png) view should be displayed
+- When the timer reached `0` sec, then the game should end, and the [Scorecard]() view should be displayed
 - The App is provided with `tabsList`. It consists of a list of tabItem objects with the following properties in each tabItem object
 
   |     Key     | Data Type |
