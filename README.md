@@ -1,6 +1,6 @@
 ﻿###Features Flag Implementation in Ecommerce
 In this project, I build a **Match Game** by applying the concepts we have learned till now.
-### Game Structure
+### Project Structure
 
 The project is a timed matching game app that challenges users to match images with the correct category. It begins with a score of 0 and a 60-second countdown timer. Users click on category tabs to reveal thumbnails and click on thumbnails to match them with the displayed image. When a match is made, the score increases, and a new image is displayed. If a mismatch occurs, the game ends, and a Scorecard view is presented. Users can choose to play again, resetting the score, timer, and categories. The game also ends when the timer reaches 0 seconds. Overall, it's an engaging and interactive game focused on image matching and category selection.
 
