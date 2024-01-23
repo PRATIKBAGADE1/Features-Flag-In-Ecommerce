@@ -61,7 +61,7 @@ The Problem Statement of this project includes the comprehensive integration of 
 <summary>Functionality to be added</summary>
 <br/>
 
-The app must have the following functionalities
+The Website must have the following functionalities
 
 - Initially,
   - Score should be `0` and time should be `60` sec
