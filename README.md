@@ -9,9 +9,10 @@ The Problem Statement of this project includes the comprehensive integration of 
 - SpringBoot-Java (BackEnd)
 - MySql
 - Hibernet
-- Postman
+- Postman-API Testing
 - TailWind CSS
 - Material UI
+- RazorPay(PaymentGateWay)
 
 ### Industrial Real-time Problems and Solutions
  The proposed solution involves the strategic implementation of feature flags within the clothing eCommerce website. Feature flags, or toggles, serve as a dynamic control mechanism, allowing for the seamless activation and deactivation of specific features in real-time.
