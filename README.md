@@ -6,7 +6,7 @@ The Problem Statement of this project includes the comprehensive integration of 
 
 ### Languages and Technologies
 - ReactJs-Javascript (FrontEnd)
-- SpringBoot - Java (BackEnd)
+- SpringBoot-Java (BackEnd)
 - MySql
 - Hibernet
 - Postman
