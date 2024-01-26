@@ -88,17 +88,6 @@ The Website must have the following functionalities
 
 </details>
 
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
-- The image to be matched in the app should have the alt as **match**
-- The thumbnail images in the app should have the alt as **thumbnail**
 
 </details>
 
