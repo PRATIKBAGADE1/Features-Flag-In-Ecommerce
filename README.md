@@ -41,7 +41,7 @@ The Problem Statement of this project includes the comprehensive integration of 
 <details>
 <summary>Click to view</summary>
 
-- ![]()
+- ![Admin Page]()
 - ![]()
 - ![]()
 - ![]()
