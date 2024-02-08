@@ -41,7 +41,7 @@ The Problem Statement of this project includes the comprehensive integration of 
 <details>
 <summary>Click to view</summary>
 
-- ![Admin Page]()
+- ![Admin Page](https://github.com/PRATIKBAGADE1/Features-Flag-In-Ecommerce/blob/main/assets/admin.png)
 - ![]()
 - ![]()
 - ![]()
