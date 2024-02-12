@@ -45,7 +45,7 @@ The Problem Statement of this project includes the comprehensive integration of 
 - **Order Treaking**  ![Order Treaking](https://github.com/PRATIKBAGADE1/Features-Flag-In-Ecommerce/blob/main/assets/order_treaking.png)
 - **Customer Order List** ![](https://github.com/PRATIKBAGADE1/Features-Flag-In-Ecommerce/blob/main/assets/productlist.png)
 - **Product Page** ![](https://github.com/PRATIKBAGADE1/Features-Flag-In-Ecommerce/blob/main/assets/product_page.png)
-- ![]()
+- **Add Product** ![](https://github.com/PRATIKBAGADE1/Features-Flag-In-Ecommerce/blob/main/assets/add_product.png)
 
 
 </details>
