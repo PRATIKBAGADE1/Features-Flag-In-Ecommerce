@@ -18,7 +18,7 @@ import com.zosh.response.ApiResponse;
 import com.zosh.service.OrderService;
 
 @RestController
-@RequestMapping("/api/admin/orders")    //Admin_order_controler
+@RequestMapping("/api/admin/orders")    
 public class AdminOrderController {
 	
 	private OrderService orderService;
