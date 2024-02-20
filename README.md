@@ -75,8 +75,6 @@ The Website must have the following functionalities
   |    tabId    |  String   |
   | displayText |  String   |
 
-- The App is provided with `imagesList`. It consists of a list of imageItem objects with the following properties in each imageItem object
-
   |     Key      | Data Type |
   | :----------: | :-------: |
   |      id      |  String   |
