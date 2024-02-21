@@ -34,7 +34,6 @@ The Problem Statement of this project includes the comprehensive integration of 
 - **Enabling Effective Testing:** Providing a framework for comprehensive A/B testing and phased feature releases, allowing for data-driven decision-making and optimal user experience refinement.
 - **Mitigating User Disruption:** Minimizing the risk of user disruption by allowing features to be activated or deactivated seamlessly, ensuring a smooth and reliable user experience during updates.
 - **Promoting Scalability:** Introducing a scalable feature management system to accommodate the growth of the eCommerce platform and efficiently manage new features as the website expands.
-- **Best rolling and rollout activity**
 
 </details>
 
