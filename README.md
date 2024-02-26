@@ -59,7 +59,6 @@ The Problem Statement of this project includes the comprehensive integration of 
 The Website must have the following functionalities
 
 - Initially,
-  - Score should be `0` and time should be `60` sec
   - The image to be matched should have the src attribute value as the value of the key `imageUrl` from the first object in **imagesList** provided
   - The **Fruits** tab should be active and the thumbnails with **FRUIT** as their category should be displayed
 
