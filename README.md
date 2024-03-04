@@ -28,6 +28,7 @@ The Problem Statement of this project includes the comprehensive integration of 
 <details>
 <summary>Solutions</summary>
  This solution addresses the identified challenges by:
+ praik bagade
   
 - **Enhancing Agility:** Introducing feature flags in both frontend and backend to enable rapid adjustments to the website's functionalities, ensuring quick adaptation to changing market trends and consumer preferences.
 - **Optimizing Deployment Processes:** Facilitating efficient and controlled feature rollouts, minimizing downtime and complexities associated with traditional deployment methods.
