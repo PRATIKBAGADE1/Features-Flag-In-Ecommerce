@@ -61,7 +61,6 @@ The Website must have the following functionalities
 
 - Initially,
   - The image to be matched should have the src attribute value as the value of the key `imageUrl` from the first object in **imagesList** provided
-  - The **Fruits** tab should be active and the thumbnails with **FRUIT** as their category should be displayed
 
   - Score is incremented by one
   - The new image to be matched should be generated randomly among the value of the key `imageUrl` from **imagesList** provided
