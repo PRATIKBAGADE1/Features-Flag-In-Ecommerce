@@ -62,7 +62,6 @@ The Website must have the following functionalities
 - Initially,
   - The image to be matched should have the src attribute value as the value of the key `imageUrl` from the first object in **imagesList** provided
 
-  - Score is incremented by one
   - The new image to be matched should be generated randomly among the value of the key `imageUrl` from **imagesList** provided
 
 - When the timer reached `0` sec, then the game should end, and the [Scorecard]() view should be displayed
