@@ -71,7 +71,7 @@ const handleCreatePayment=()=>{
             </div>
 
             <Button
-              // onClick={handleCreatePayment}
+              onClick={handleCreatePayment}
               variant="contained"
               type="submit"
               sx={{ padding: ".8rem 2rem", marginTop: "2rem", width: "100%" }}
