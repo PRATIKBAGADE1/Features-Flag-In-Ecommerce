@@ -14,6 +14,15 @@ The Problem Statement of this project includes the comprehensive integration of 
 - Material UI
 - RazorPay(PaymentGateWay)
 
+### Constribution
+- Integrate the Token Based Authentication for our E-commerce :- when logg-in it provides the JWT token (user can directly Reloggin by using these token.)
+- Integrate the product tracking services - to know product is delivered or not.( Both user and admin accounts)
+- Review and rating handling given by user.
+- RESTful API integration by using POSTMAN.
+- In Spring-Boot Integrate the MVC architecture for all websites data such as services and controllers.
+- Help in Intergration of Payment gateway via Razorpay.
+- Build Feature rollouts with feature flags
+
 ### Industrial Real-time Problems and Solutions
  The proposed solution involves the strategic implementation of feature flags within the clothing eCommerce website. Feature flags, or toggles, serve as a dynamic control mechanism, allowing for the seamless activation and deactivation of specific features in real-time.
 <details>
