@@ -64,33 +64,7 @@ The Problem Statement of this project includes the comprehensive integration of 
 
 <details>
 <summary>Functionality to be added</summary>
-<br/>
 
-The Website must have the following functionalities
-
-- Initially,
-  - The image to be matched should have the src attribute value as the value of the key `imageUrl` from the first object in **imagesList** provided
-
-  - The new image to be matched should be generated randomly among the value of the key `imageUrl` from **imagesList** provided
-
-- The App is provided with `tabsList`. It consists of a list of tabItem objects with the following properties in each tabItem object
-
-  |     Key     | Data Type |
-  | :---------: | :-------: |
-  |    tabId    |  String   |
-  | displayText |  String   |
-
-  |     Key      | Data Type |
-  | :----------: | :-------: |
-  |      id      |  String   |
-  |   imageUrl   |  String   |
-  | thumbnailUrl |  String   |
-  |   category   |  String   |
-
-</details>
-
-
-</details>
 
 
 
