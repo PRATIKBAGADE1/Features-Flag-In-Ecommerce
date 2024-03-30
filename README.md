@@ -65,7 +65,7 @@ production.
 - **Add Product** ![](https://github.com/PRATIKBAGADE1/Features-Flag-In-Ecommerce/blob/main/assets/add_product.png)
 - **Payment Page** ![]()
 - **Payment Success** ![]()
-- **Review and Rating** ![]()
+- **Review and Rating** ![](https://github.com/PRATIKBAGADE1/Features-Flag-In-Ecommerce/blob/main/assets/review_rating.jpg)
 - **Sales Features** ![]()
 
 
