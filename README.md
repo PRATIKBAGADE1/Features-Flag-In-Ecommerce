@@ -63,10 +63,10 @@ production.
 - **Customer Order List** ![](https://github.com/PRATIKBAGADE1/Features-Flag-In-Ecommerce/blob/main/assets/productlist.png)
 - **Product Page** ![](https://github.com/PRATIKBAGADE1/Features-Flag-In-Ecommerce/blob/main/assets/product_page.png)
 - **Add Product** ![](https://github.com/PRATIKBAGADE1/Features-Flag-In-Ecommerce/blob/main/assets/add_product.png)
-- **Payment Page** ![]()
-- **Payment Success** ![]()
+- **Payment Page** ![](https://github.com/PRATIKBAGADE1/Features-Flag-In-Ecommerce/blob/main/assets/payment_page.jpg)
+- **Payment Success** ![](https://github.com/PRATIKBAGADE1/Features-Flag-In-Ecommerce/blob/main/assets/payment_success.jpg)
 - **Review and Rating** ![](https://github.com/PRATIKBAGADE1/Features-Flag-In-Ecommerce/blob/main/assets/review_rating.jpg)
-- **Sales Features** ![]()
+- **Sales Features** ![](https://github.com/PRATIKBAGADE1/Features-Flag-In-Ecommerce/blob/main/assets/sales_flag.jpg)
 
 
 
