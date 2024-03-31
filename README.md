@@ -72,10 +72,7 @@ production.
 
 </details>
 
-### Completion Instructions
 
-<details>
-<summary>Functionality to be added</summary>
 
 
 
