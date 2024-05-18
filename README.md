@@ -4,6 +4,13 @@
 
 The Problem Statement of this project includes the comprehensive integration of feature flags into the clothing eCommerce website, empowering it with dynamic control over specific features. This encompasses the enhancement of agility, optimization of deployment processes, effective testing mechanisms, mitigation of user disruption risks, and scalability. The project aims to elevate the platform's responsiveness to market trends, ensuring a seamless and personalized shopping experience while establishing a foundation for future growth and adaptability in the ever-evolving online fashion industry.
 
+### Project Idea
+- The Problem Statement of this project includes the comprehensive integration of feature flags into the clothing Ecommerce website, empowering it with dynamic control over specific features
+- Features flags allow the release of new feature in your software or platform with zero downtime and also it is a technique that allows to hide , enable or disable certain features in
+production.
+- With the strategic implementation of feature flags, it allows seamless feature enabling efficient testing and deployment in this scalable online shopping platform.
+- So, For Implementation for features flag developed a complete Production level E-commerce with functionality like Pamyent Gateway and product tracking by admin , Token based Security etc.
+
 ### Languages and Technologies
 - ReactJs-Javascript (FrontEnd)
 - SpringBoot-Java (BackEnd)
@@ -13,6 +20,15 @@ The Problem Statement of this project includes the comprehensive integration of 
 - TailWind CSS
 - Material UI
 - RazorPay(PaymentGateWay)
+
+### Constribution
+- Integrate the Token Based Authentication for our E-commerce :- when logg-in it provides the JWT token (user can directly Reloggin by using these token.)
+- Integrate the product tracking services - to know product is delivered or not.( Both user and admin accounts)
+- Review and rating handling given by user.
+- RESTful API integration by using POSTMAN.
+- In Spring-Boot Integrate the MVC architecture for all websites data such as services and controllers.
+- Help in Intergration of Payment gateway via Razorpay.
+- Build Feature rollouts with feature flags
 
 ### Industrial Real-time Problems and Solutions
  The proposed solution involves the strategic implementation of feature flags within the clothing eCommerce website. Feature flags, or toggles, serve as a dynamic control mechanism, allowing for the seamless activation and deactivation of specific features in real-time.
@@ -47,41 +63,17 @@ The Problem Statement of this project includes the comprehensive integration of 
 - **Customer Order List** ![](https://github.com/PRATIKBAGADE1/Features-Flag-In-Ecommerce/blob/main/assets/productlist.png)
 - **Product Page** ![](https://github.com/PRATIKBAGADE1/Features-Flag-In-Ecommerce/blob/main/assets/product_page.png)
 - **Add Product** ![](https://github.com/PRATIKBAGADE1/Features-Flag-In-Ecommerce/blob/main/assets/add_product.png)
+- **Payment Page** ![](https://github.com/PRATIKBAGADE1/Features-Flag-In-Ecommerce/blob/main/assets/payment_page.jpg)
+- **Payment Success** ![](https://github.com/PRATIKBAGADE1/Features-Flag-In-Ecommerce/blob/main/assets/payment_success.jpg)
+- **Review and Rating** ![](https://github.com/PRATIKBAGADE1/Features-Flag-In-Ecommerce/blob/main/assets/review_rating.jpg)
+- **Sales Features** ![](https://github.com/PRATIKBAGADE1/Features-Flag-In-Ecommerce/blob/main/assets/sales_flag.jpg)
 
 
-</details>
-
-### Completion Instructions
-
-<details>
-<summary>Functionality to be added</summary>
-<br/>
-
-The Website must have the following functionalities
-
-- Initially,
-  - The image to be matched should have the src attribute value as the value of the key `imageUrl` from the first object in **imagesList** provided
-
-  - The new image to be matched should be generated randomly among the value of the key `imageUrl` from **imagesList** provided
-
-- The App is provided with `tabsList`. It consists of a list of tabItem objects with the following properties in each tabItem object
-
-  |     Key     | Data Type |
-  | :---------: | :-------: |
-  |    tabId    |  String   |
-  | displayText |  String   |
-
-  |     Key      | Data Type |
-  | :----------: | :-------: |
-  |      id      |  String   |
-  |   imageUrl   |  String   |
-  | thumbnailUrl |  String   |
-  |   category   |  String   |
 
 </details>
 
 
-</details>
+
 
 
 
