@@ -53,7 +53,7 @@ public class PaymentController {
 		Order order=orderService.findOrderById(orderId);
 		 try {
 		      // Instantiate a Razorpay client with your key ID and secret
-		      RazorpayClient razorpay = new RazorpayClient("rzp_test_kTsRSaDC8hwztX", "LieoD1s9mxMIv569PcgRDMcU");
+		      RazorpayClient razorpay = new RazorpayClient("rzp_test_8tVZDEQbeJDNeR", "7niTHJTZmLUDnDeQBNEviD15");
 
 		      // Create a JSON object with the payment link request parameters
 		      JSONObject paymentLinkRequest = new JSONObject();
@@ -80,7 +80,7 @@ public class PaymentController {
 		      paymentLinkRequest.put("reminder_enable",true);
 
 		      // Set the callback URL and method
-		      paymentLinkRequest.put("callback_url","https://shopwithzosh.vercel.app/payment/"+orderId);
+		      paymentLinkRequest.put("callback_url","http://localhost:3000/payment/"+orderId);
 		      paymentLinkRequest.put("callback_method","get");
 
 		      // Create the payment link using the paymentLink.create() method
@@ -115,7 +115,7 @@ public class PaymentController {
 	
   @GetMapping("/payments")
   public ResponseEntity<ApiResponse> redirect(@RequestParam(name="payment_id") String paymentId,@RequestParam("order_id")Long orderId) throws RazorpayException, OrderException {
-	  RazorpayClient razorpay = new RazorpayClient("rzp_test_kTsRSaDC8hwztX", "LieoD1s9mxMIv569PcgRDMcU");
+	  RazorpayClient razorpay = new RazorpayClient("rzp_test_8tVZDEQbeJDNeR", "7niTHJTZmLUDnDeQBNEviD15");
 	  Order order =orderService.findOrderById(orderId);
 	
 	  try {
@@ -139,7 +139,7 @@ public class PaymentController {
 	      
 	} catch (Exception e) {
 		System.out.println("errrr payment -------- ");
-		new RedirectView("https://shopwithzosh.vercel.app/payment/failed");
+		new RedirectView("https://localhost:3000/payment/failed");
 		throw new RazorpayException(e.getMessage());
 	}
 

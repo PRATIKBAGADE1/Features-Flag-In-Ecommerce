@@ -108,6 +108,10 @@ const ProductsTable = () => {
                 <MenuItem value={"mens_kurta"}>Men's Kurta</MenuItem>
                 <MenuItem value={"saree"}>Saree</MenuItem>
                 <MenuItem value={"lengha_choli"}>Lengha Choli</MenuItem>
+                <MenuItem value={"t_shirts"}>T-Shirt</MenuItem>
+                <MenuItem value={"shirt"}>Men's Shirt</MenuItem>
+                <MenuItem value={"top"}>Tops</MenuItem>
+                <MenuItem value={"lengha_choli"}>Lengha Choli</MenuItem>
               </Select>
             </FormControl>
           </Grid>

@@ -224,6 +224,9 @@ const UpdateProductForm = () => {
                 <MenuItem value="Saree">Saree</MenuItem>
                 <MenuItem value="Saree">Saree</MenuItem>
                 <MenuItem value="Lengha Choli">Lengha Choli</MenuItem>
+                <MenuItem value="Lengha Choli">Lengha Choli</MenuItem>
+                <MenuItem value="Lengha Choli">Lengha Choli</MenuItem>
+                <MenuItem value="Lengha Choli">Lengha Choli</MenuItem>
               </Select>
             </FormControl>
           </Grid>

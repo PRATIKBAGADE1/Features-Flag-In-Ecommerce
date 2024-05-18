@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.zosh.exception.ProductException;
 import com.zosh.exception.UserException;
+import com.zosh.modal.Product;
 import com.zosh.modal.Review;
 import com.zosh.modal.User;
 import com.zosh.request.ReviewRequest;
@@ -46,5 +47,10 @@ public class ReviewController {
 		List<Review>reviews=reviewService.getAllReview(productId);
 		return new ResponseEntity<List<Review>>(reviews,HttpStatus.OK);
 	}
+	//   @GetMapping
+    // public List<Product> getAllProducts() {
+    //     return saleService.findAllProducts();
+    // }
+
 
 }

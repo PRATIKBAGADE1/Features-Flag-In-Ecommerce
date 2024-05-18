@@ -10,6 +10,7 @@ import {
   DELETE_PRODUCT_REQUEST,
   DELETE_PRODUCT_SUCCESS,
   DELETE_PRODUCT_FAILURE,
+  
 } from "./ActionType";
 import { UPDATE_PRODUCT_REQUEST } from "./ActionType";
 
@@ -97,6 +98,26 @@ const productReducer = (state = initialState, action) => {
         loading: false,
         error: action.payload,
       };
+      // case SALE_PRODUCT_REQUEST:
+      // return {
+      //   ...state,
+      //   loading: true,
+      //   error: null,
+      // };
+      // case SALE_PRODUCT_SUCCESS:
+      // return {
+      //   ...state,
+      //   loading: false,
+      //   products: state.products.filter(
+      //     (product) => product._id !== action.payload
+      //   ),
+      // };
+      // case SALE_PRODUCT_FAILURE:
+      // return {
+      //   ...state,
+      //   loading: false,
+      //   error: action.payload,
+      // };
     default:
       return state;
   }

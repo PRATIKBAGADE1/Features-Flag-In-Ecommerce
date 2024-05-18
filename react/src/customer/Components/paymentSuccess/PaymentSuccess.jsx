@@ -8,6 +8,9 @@ import { getOrderById } from "../../../Redux/Customers/Order/Action";
 import OrderTraker from "../orders/OrderTraker";
 import AddressCard from "../adreess/AdreessCard";
 import { useParams } from "react-router-dom";
+import Button from '@mui/material/Button';
+
+
 
 const PaymentSuccess = () => {
   // razorpay_payment_link_reference_id
@@ -37,7 +40,15 @@ const PaymentSuccess = () => {
       dispatch(updatePayment(data));
       dispatch(getOrderById(orderId));
     }
-  }, [orderId, paymentId]);
+   }, [orderId, paymentId]);
+
+  // just trail
+ const handleDownload = () => {
+    // Here you can implement the logic to generate and download the PDF
+    // For example, you can use a library like jsPDF
+    // For demonstration purposes, let's assume a simple alert for now
+    alert('Downloading PDF...');
+  };
 
   return (
     <div className="px-2 lg:px-36">
@@ -50,6 +61,9 @@ const PaymentSuccess = () => {
           <AlertTitle>Payment Success</AlertTitle>
           Congratulation Your Order Get Placed
         </Alert>
+        <Button variant="contained" onClick={handleDownload}>
+      Generate Bill
+    </Button>
       </div>
 
       <OrderTraker activeStep={1}/>

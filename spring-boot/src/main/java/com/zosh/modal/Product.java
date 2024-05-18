@@ -74,14 +74,20 @@ public class Product {
     private Category category;
     
     private LocalDateTime createdAt;
-    
+
+	@Column(name = "on_sale")
+	private boolean onSale;    
+	// public Product(boolean onSale) {
+	// 	this.onSale = onSale;
+	// }
+
 	public Product() {
 		
 	}
 
 	public Product(Long id, String title, String description, int price, int discountedPrice, int discountPersent,
 			int quantity, String brand, String color, Set<Size> sizes, String imageUrl, List<Rating> ratings,
-			List<Review> reviews, int numRatings, Category category, LocalDateTime createdAt) {
+			List<Review> reviews, int numRatings, Category category, LocalDateTime createdAt , Boolean onSale) {
 		super();
 		this.id = id;
 		this.title = title;
@@ -99,6 +105,7 @@ public class Product {
 		this.numRatings = numRatings;
 		this.category = category;
 		this.createdAt = createdAt;
+		this.onSale = onSale;
 	}
 
 	public LocalDateTime getCreatedAt() {
@@ -228,10 +235,18 @@ public class Product {
 		this.sizes = sizes;
 	}
 
+	public boolean isOnSale() {
+        return onSale;
+    }
+
+    public void setOnSale(boolean onSale) {
+        this.onSale = onSale;
+    }
+
 	@Override
 	public int hashCode() {
 		return Objects.hash(brand, category, color, description, discountPersent, discountedPrice, id, imageUrl,
-				numRatings, price, quantity, ratings, reviews, sizes, title);
+				numRatings, price, quantity, ratings, reviews, sizes, title, onSale);
 	}
 
 	@Override
@@ -249,8 +264,30 @@ public class Product {
 				&& Objects.equals(id, other.id) && Objects.equals(imageUrl, other.imageUrl)
 				&& numRatings == other.numRatings && price == other.price && quantity == other.quantity
 				&& Objects.equals(ratings, other.ratings) && Objects.equals(reviews, other.reviews)
-				&& Objects.equals(sizes, other.sizes) && Objects.equals(title, other.title);
+				&& Objects.equals(sizes, other.sizes) && Objects.equals(title, other.title)
+				&& Objects.equals(onSale, other.onSale);
 	}
+
+	
+
+	// public boolean isOnSale() {
+    //     return this.on_sale;
+    // }
+
+	// public void setOn_sale(boolean b) {
+	// 	// TODO Auto-generated method stub
+	// 	throw new UnsupportedOperationException("Unimplemented method 'setOn_sale'");
+	// }
+
+    // public boolean isOnSale() {
+    //     // TODO Auto-generated method stub
+    //     throw new UnsupportedOperationException("Unimplemented method 'isOnSale'");
+    // }
+
+    // public void setOnSale(boolean b) {
+    //     // TODO Auto-generated method stub
+    //     throw new UnsupportedOperationException("Unimplemented method 'setOnSale'");
+    // }
 
 	
 

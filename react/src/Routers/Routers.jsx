@@ -8,7 +8,7 @@ import TearmsCondition from "../Pages/TearmsCondition";
 import Contact from "../Pages/Contact";
 import Product from "../customer/Components/Product/Product/Product";
 import ProductDetails from "../customer/Components/Product/ProductDetails/ProductDetails";
-import Cart from "../customer/Components/Product/Cart/Cart";
+import Cart from "../customer/Components/Cart/Cart";
 
 import DemoAdmin from "../Admin/Views/DemoAdmin";
 import AdminPannel from "../Admin/AdminPannel";

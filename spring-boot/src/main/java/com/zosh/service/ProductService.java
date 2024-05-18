@@ -18,7 +18,7 @@ public interface ProductService {
 	
 	public Product updateProduct(Long productId,Product product)throws ProductException;
 	
-	public List<Product> getAllProducts();
+	// public List<Product> getAllProducts();
 	
 	// for user and admin both
 	public Product findProductById(Long id) throws ProductException;
@@ -29,6 +29,10 @@ public interface ProductService {
 	
 //	public List<Product> getAllProduct(List<String>colors,List<String>sizes,int minPrice, int maxPrice,int minDiscount, String category, String sort,int pageNumber, int pageSize);
 	public Page<Product> getAllProduct(String category, List<String>colors, List<String> sizes, Integer minPrice, Integer maxPrice, Integer minDiscount,String sort, String stock, Integer pageNumber, Integer pageSize);
+
+    public List<Product> getAllProducts();
+
+	// public List<Product> findAllProducts();
 	
 	
 	

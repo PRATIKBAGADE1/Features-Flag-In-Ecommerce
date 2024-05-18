@@ -3,6 +3,8 @@ package com.zosh.config;
 import java.util.Arrays;
 import java.util.Collections;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
@@ -18,6 +20,8 @@ import org.springframework.web.cors.CorsConfigurationSource;
 import jakarta.servlet.http.HttpServletRequest;
 
 @Configuration
+@ComponentScan(basePackages = "com.zosh") // Package containing your controllers, services, and repositories
+@EntityScan(basePackages = "com.zosh.modal") // Package containing your entity classes
 public class AppConfig {
 	
 	@Bean

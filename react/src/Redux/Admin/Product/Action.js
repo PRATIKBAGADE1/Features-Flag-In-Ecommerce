@@ -12,8 +12,46 @@ import {
   DELETE_PRODUCT_REQUEST,
   DELETE_PRODUCT_SUCCESS,
   DELETE_PRODUCT_FAILURE,
+  SALE_PRODUCT_REQUEST,
+  SALE_PRODUCT_SUCCESS,
+  SALE_PRODUCT_FAILURE
+  
 } from "./ActionType";
 import api, { API_BASE_URL } from "../../../config/api";
+// Assuming api.sale is your Axios instance configured to make API requests
+// and SALE_PRODUCT_REQUEST, SALE_PRODUCT_SUCCESS, SALE_PRODUCT_FAILURE are action types
+export const saleProduct = (productId, isOnSale) => async (dispatch) => {
+  console.log("Toggle sale status for product:", productId, "isOnSale:", isOnSale);
+  try {
+    dispatch({ type: SALE_PRODUCT_REQUEST });
+
+    console.log("isOnSale:", isOnSale);
+
+
+    // Make the API request to toggle the sale status of the product
+    const response = await api.put(`/api/sale/${productId}/toggleSale`, isOnSale);
+
+
+
+    // Dispatch success action with the updated product data
+    dispatch({
+      type: SALE_PRODUCT_SUCCESS,
+      payload: response.data, // Assuming the API returns the updated product data
+    });
+
+    console.log("Product sale status updated successfully:", response.data);
+  } catch (error) {
+    // Dispatch failure action if there's an error
+    console.log("Error updating product sale status:", error);
+    dispatch({
+      type: SALE_PRODUCT_FAILURE,
+      payload: error.response && error.response.data.message
+        ? error.response.data.message
+        : error.message,
+    });
+  }
+};
+
 
 // export const getProducts = () => async (dispatch) => {
 //   try {

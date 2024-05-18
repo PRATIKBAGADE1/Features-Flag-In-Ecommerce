@@ -14,6 +14,9 @@ import {
   DELETE_PRODUCT_REQUEST,
   DELETE_PRODUCT_FAILURE,
   DELETE_PRODUCT_SUCCESS,
+  SALE_PRODUCT_REQUEST,
+  SALE_PRODUCT_SUCCESS,
+  SALE_PRODUCT_FAILURE,
 } from "./ActionType";
 
 const initialState = {
@@ -84,7 +87,7 @@ const customerProductReducer = (state = initialState, action) => {
           error: null,
         };
       case DELETE_PRODUCT_SUCCESS:
-        console.log("dlete ",state.products)
+        console.log("delete ",state.products)
         return {
           ...state,
           loading: false,
@@ -98,6 +101,26 @@ const customerProductReducer = (state = initialState, action) => {
           loading: false,
           error: action.payload,
         };
+        case 'FETCH_PRODUCTS_REQUEST':
+          return {
+            ...state,
+            loading: true,
+            error: null
+          };
+        case 'FETCH_PRODUCTS_SUCCESS':
+          return {
+            ...state,
+            loading: false,
+            products: action.payload // Ensure action.payload is an array of products
+          };
+        case 'FETCH_PRODUCTS_FAILURE':
+          return {
+            ...state,
+            loading: false,
+            error: action.payload
+          };
+        // Add other cases for updating products, e.g., adding, deleting, or updating a product
+       
     default:
       return state;
   }
